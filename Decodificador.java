@@ -23,6 +23,7 @@ public class Decodificador {
                 int nuevoAscii = (ascii - AsciiBase - veces) % 26 + AsciiBase;
                 char nuevaLetra = (char)nuevoAscii;
                 mensajeDecodificado += nuevaLetra;
+
             }
         }
         System.out.println(mensajeDecodificado);
